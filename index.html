@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Par@SMOS - NFT Game Integration Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script.js"></script>
+
+  <link href="./res/x-icon.png" mce_href="favicon.ico" rel="bookmark" type="image/x-icon" />
+  <link href="./res/x-icon.png" mce_href="favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="./res/x-icon.png" mce_href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+<body>
+    <!-- Header -->
+<header class="site-header">
+    <div class="container">
+        <a href="#" class="logo">Par@SMOS</a>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#how-it-works">Guide</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#nft-gallery">Gallery</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+    </div>
+</header>
+
+    <!-- Intro Section -->
+<section id="intro" class="hero-section">
+    <div class="container">
+        <h1>Welcome to Par@SMOS - Game Integration Platform for Web 3.0</h1>
+        <p>Experience the future of gaming and digital ownership with our innovative platform that bridges the world of NFTs and games.</p>
+        <a href="#features" class="btn-cta">Explore Features</a>
+    </div>
+</section>
+
+    <!-- How It Works Section -->
+<section id="how-it-works" class="steps-section">
+    <div class="container">
+        <h2>How It Works</h2>
+        <div id="steps-accordion">
+            <h3>Step 1: Connect Your Wallet</h3>
+            <div>
+                <p>Start by logging into our platform using your digital wallet. Our site supports major wallets, ensuring a secure and seamless connection. Once logged in, your NFT collection will be displayed in your personal dashboard.</p>
+            </div>
+            <h3>Step 2: Select Your NFT</h3>
+            <div>
+                <p>Browse through your NFTs and choose the one you'd like to see transformed into a unique game element. Click on the NFT to select it and proceed to the next step.</p>
+            </div>
+            <h3>Step 3: Grant Copyright</h3>
+            <div>
+                <p>After selecting your NFT, you'll have the option to grant copyright permission for its use in the game. This process is secure and respects your ownership rights.</p>
+            </div>
+            <h3>Step 4: AI-Generated Customization</h3>
+            <div>
+                <p>Our advanced AI will then generate various styles and appearances for your NFT, ensuring it fits perfectly within the game's aesthetic. You can review and choose the style that appeals to you the most.</p>
+            </div>
+            <h3>Step 5: Integration into the Game</h3>
+            <div>
+                <p>Your NFT is now ready to become a part of the gaming world! It will be transformed into a card or game element in our MTG-style game. You'll get to see how your NFT enhances the gameplay.</p>
+            </div>
+            <h3>Step 6: Play and Earn</h3>
+            <div>
+                <p>With everything set, jump into the game with your new, unique game card. Compete against other players, complete challenges, and earn tokens and rewards. Your journey in the NFT-integrated gaming universe begins!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- <section id="how-it-works1" class="steps-section">
+    <div class="container">
+        <h2>How It Works</h2>
+
+    <div class="step">
+            <span class="step-number">1</span>
+        <h3>Connect Your Wallet</h3>
+        <p>Start by logging into our platform using your digital wallet. Our site supports major wallets, ensuring a secure and seamless connection. Once logged in, your NFT collection will be displayed in your personal dashboard.</p>
+    </div>
+    <div class="step">
+            <span class="step-number">2</span>
+        <h3>Select Your NFT</h3>
+        <p>Browse through your NFTs and choose the one you'd like to see transformed into a unique game element. Click on the NFT to select it and proceed to the next step.</p>
+    </div>
+    <div class="step">
+            <span class="step-number">3</span>
+        <h3>Grant Copyright</h3>
+        <p>After selecting your NFT, you'll have the option to grant copyright permission for its use in the game. This process is secure and respects your ownership rights.</p>
+    </div>
+    <div class="step">
+            <span class="step-number">4</span>
+        <h3>AI-Generated Customization</h3>
+        <p>Our advanced AI will then generate various styles and appearances for your NFT, ensuring it fits perfectly within the game's aesthetic. You can review and choose the style that appeals to you the most.</p>
+    </div>
+    <div class="step">
+            <span class="step-number">5</span>
+        <h3>Integration into the Game</h3>
+        <p>Your NFT is now ready to become a part of the gaming world! It will be transformed into a card or game element in our MTG-style game. You'll get to see how your NFT enhances the gameplay.</p>
+    </div>
+    <div class="step">
+            <span class="step-number">6</span>
+        <h3>Play and Earn</h3>
+        <p>With everything set, jump into the game with your new, unique game card. Compete against other players, complete challenges, and earn tokens and rewards. Your journey in the NFT-integrated gaming universe begins!</p>
+    </div>
+
+    </div>
+</section> -->
+
+    <!-- Features Section -->
+<section id="features" class="features-section">
+    <div class="container">
+        <h2>Key Features of the Game</h2>
+
+    <p>Inspired by the legendary Magic: The Gathering (MTG), our first game offers an immersive and thrilling adventure for both gamers and NFT enthusiasts alike.</p>
+
+    <div class="feature">
+            <!-- <img src="res/nft1.jpg" alt="Deck Building"> -->
+        <h3>Deck Building</h3>
+        <p>Craft a deck that reflects your play style and strategy.</p>
+    </div>
+    <div class="feature">
+        <h3>Seamless Wallet Integration</h3>
+        <p>Easily connect your digital wallet to access and display your NFT collection directly on the platform.</p>
+    </div>
+    <div class="feature">
+        <h3>Interactive NFT Gallery</h3>
+        <p>View and manage your NFTs in an engaging and visually appealing interactive gallery format.</p>
+    </div>
+    <div class="feature">
+        <h3>AI-Enhanced Customization</h3>
+        <p>Utilize cutting-edge AI technology to generate unique and visually stunning versions of your NFTs, tailored to the game's aesthetic.</p>
+    </div>
+    <div class="feature">
+        <h3>Dynamic Game Integration</h3>
+        <p>Turn your digital collectibles into powerful game assets, transform your NFTs into playable game elements, such as cards or characters, for an immersive gaming experience.</p>
+    </div>
+    <div class="feature">
+        <h3>MTG-Style Gaming Experience</h3>
+        <p>Enjoy a card game experience reminiscent of Magic: The Gathering, featuring your own NFTs as game elements.</p>
+    </div>
+    <div class="feature">
+        <h3>Earn Rewards and Tokens</h3>
+        <p>Participate in the game to earn exclusive rewards and tokens, which can be used within the platform or traded.</p>
+    </div>
+    <div class="feature">
+        <h3>User-Friendly Interface</h3>
+        <p>Experience an intuitive and easy-to-navigate interface, making it simple for users of all levels to engage with the platform.</p>
+    </div>
+    <div class="feature">
+        <h3>Real-Time Analytics and Tracking</h3>
+        <p>Monitor your NFTs' performance and track your gaming progress with comprehensive analytics and reporting tools.</p>
+    </div>
+    <div class="feature">
+        <h3>Community Engagement</h3>
+        <p>Be part of a vibrant community of players and collectors, connect with a vibrant community of gamers and NFT enthusiasts, share strategies, and participate in events.</p>
+    </div>
+    <div class="feature">
+        <h3>Secure and Transparent Transactions</h3>
+        <p>Benefit from a secure platform with transparent transactions, ensuring the safety of your digital assets.</p>
+    </div>
+
+
+    <div class="game-description">
+        <h2>About Our MTG-Style Game</h2>
+        <p>Immerse yourself in a universe where your NFTs come to life as unique, powerful cards in a game of strategy and magic. Each NFT you own can be transformed into a card with special abilities, attributes, and artwork, reflecting the rarity and uniqueness of your digital asset.</p>
+        
+        <p>Inspired by the complexity and depth of Magic: The Gathering, our game challenges players to build decks, strategize, and compete against others in a dynamic, ever-evolving battlefield. The game is designed to be accessible to newcomers while offering deep strategic gameplay for seasoned players.</p>
+        
+        <p>Whether you are a fan of card games, an avid NFT collector, or someone who loves to explore new frontiers in digital entertainment, our platform offers an unparalleled experience. Join us on this exciting journey and redefine the way you play and interact with your digital assets.</p>
+    </div>
+
+    </div>
+
+</section>
+
+    <!-- FAQ Section -->
+<section id="faq" class="faq-section">
+    <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div id="faq-accordion">
+            <h3>What is the NFT Game Integration Platform?</h3>
+            <div>
+                <p>This platform allows you to integrate your NFTs into a digital card game similar to Magic: The Gathering. You can use your NFTs to create unique game cards and play with other members of the community.</p>
+            </div>
+            <h3>How do I start using my NFTs in the game?</h3>
+            <div>
+                <p>Simply connect your digital wallet to our platform. Once logged in, you can select the NFTs you want to use in the game. Our AI will then generate a game-compatible version of your NFT.</p>
+            </div>
+            <h3>Is my NFT safe when I use it on this platform?</h3>
+            <div>
+                <p>Yes, your NFT remains safely stored in your wallet. We only use a digital representation of your NFT in the game.</p>
+            </div>
+            <h3>Can I use any NFT in my collection?</h3>
+            <div>
+                <p>Most NFTs are compatible with our platform. However, there may be exceptions due to technical or copyright reasons. Please refer to our NFT compatibility guide for more information.</p>
+            </div>
+            <h3>Do I earn rewards by playing the game?</h3>
+            <div>
+                <p>Yes! Players can earn in-game tokens and rewards by playing matches, winning tournaments, and participating in community events.</p>
+            </div>
+            <h3>Can I trade or sell the game cards I create?</h3>
+            <div>
+                <p>Currently, cards created on the platform are for gameplay within our ecosystem only. We are exploring options for trading and selling these cards in the future.</p>
+            </div>
+            <h3>How often is the game updated?</h3>
+            <div>
+                <p>We regularly update the game with new features, cards, and events. Stay tuned to our community updates for the latest news.</p>
+            </div>
+            <h3>What if I encounter issues or have more questions?</h3>
+            <div>
+                <p>Our support team is here to help! You can contact us through the 'Contact Us' section of our website, and we'll assist you as soon as possible.</p>
+            </div>
+        </div>
+
+<!--
+    <div class="faq-item">
+        <h3 class="faq-question">What is the NFT Game Integration Platform?</h3>
+        <p class="faq-answer">This platform allows you to integrate your NFTs into a digital card game similar to Magic: The Gathering. You can use your NFTs to create unique game cards and play with other members of the community.</p>
+    </div>
+    <div class="faq-item">
+        <h3 class="faq-question">How do I start using my NFTs in the game?</h3>
+        <p class="faq-answer">Simply connect your digital wallet to our platform. Once logged in, you can select the NFTs you want to use in the game. Our AI will then generate a game-compatible version of your NFT.</p>
+    </div>
+    <div class="faq-item">
+        <h3 class="faq-question">Is my NFT safe when I use it on this platform?</h3>
+        <p class="faq-answer">Yes, your NFT remains safely stored in your wallet. We only use a digital representation of your NFT in the game.</p>
+    </div>
+    <div class="faq-item">
+        <h3 class="faq-question">Can I use any NFT in my collection?</h3>
+        <p class="faq-answer">Most NFTs are compatible with our platform. However, there may be exceptions due to technical or copyright reasons. Please refer to our NFT compatibility guide for more information.</p>
+    </div>
+    <div class="faq-item">
+        <h3 class="faq-question">Do I earn rewards by playing the game?</h3>
+        <p class="faq-answer">Yes! Players can earn in-game tokens and rewards by playing matches, winning tournaments, and participating in community events.</p>
+    </div>
+    <div class="faq-item">
+        <h3 class="faq-question">Can I trade or sell the game cards I create?</h3>
+        <p class="faq-answer">Currently, cards created on the platform are for gameplay within our ecosystem only. We are exploring options for trading and selling these cards in the future.</p>
+    </div>
+    <div class="faq-item">
+        <h3 class="faq-question">How often is the game updated?</h3>
+        <p class="faq-answer">We regularly update the game with new features, cards, and events. Stay tuned to our community updates for the latest news.</p>
+    </div>
+    <div class="faq-item">
+        <h3 class="faq-question">What if I encounter issues or have more questions?</h3>
+        <p class="faq-answer">Our support team is here to help! You can contact us through the 'Contact Us' section of our website, and we'll assist you as soon as possible.</p>
+    </div>
+ -->
+    </div>
+</section>
+
+    <!-- Roadmap Section -->
+<section id="roadmap" class="roadmap-section">
+    <div class="container">
+        <h2>Our Journey to Revolutionize NFT Gaming</h2>
+        <ul class="roadmap-timeline">
+            <li>
+                <h3>Q1 2024: Platform Launch</h3>
+                <p>Official launch of our NFT game integration platform. Users can connect their wallets and view their NFT collections.</p>
+            </li>
+            <li>
+                <h3>Q2 2024: NFT Customization Tools</h3>
+                <p>Introduction of AI-driven tools to customize NFTs to match the game's aesthetic, enhancing the gaming experience.</p>
+            </li>
+            <li>
+                <h3>Q3 2024: Game Beta Release</h3>
+                <p>Launch of the beta version of our MTG-style game, featuring NFT-integrated cards and unique gameplay mechanics.</p>
+            </li>
+            <li>
+                <h3>Q4 2024: Community Tournaments</h3>
+                <p>Hosting of community tournaments with prizes and special NFT drops to engage and reward our players.</p>
+            </li>
+            <li>
+                <h3>Q1 2025: Mobile App Development</h3>
+                <p>Development of a mobile app to allow players to enjoy the game and manage their NFTs on-the-go.</p>
+            </li>
+            <li>
+                <h3>Q2 2025: Platform Expansion</h3>
+                <p>Expansion of the platform to support additional NFT standards and integration with other blockchain games.</p>
+            </li>
+            <li>
+                <h3>Q3 2025 and Beyond: Continuous Updates</h3>
+                <p>Ongoing updates and improvements based on community feedback, including new features, game modes, and partnerships.</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+    <!-- Join Our Community Section -->
+<section id="community" class="community-section">
+    <div class="container">
+        <h2>Join Our Vibrant Community</h2>
+        <p>Connect with fellow gamers and NFT enthusiasts, share your experiences, and stay up-to-date with the latest trends and updates.</p>
+
+        <div class="community-feature">
+            <h3>Discussion Forums</h3>
+            <p>Engage in lively discussions, ask questions, and share your insights on our dedicated forums.</p>
+        </div>
+
+        <div class="community-feature">
+            <h3>Live Events</h3>
+            <p>Participate in live Q&A sessions, webinars, and online meetups with industry experts and fellow community members.</p>
+        </div>
+
+        <div class="community-feature">
+            <h3>User Galleries</h3>
+            <p>Showcase your NFTs and game creations in your personal gallery and explore galleries created by others.</p>
+        </div>
+
+        <div class="community-feature">
+            <h3>Community Contests</h3>
+            <p>Join our regular contests for a chance to win exclusive NFTs, game tokens, and other exciting prizes.</p>
+        </div>
+
+        <div class="community-feature">
+            <h3>Social Media Groups</h3>
+            <p>Follow us on social media and join our groups for real-time updates and networking opportunities.</p>
+        </div>
+
+        <div class="community-feature">
+            <h3>Feedback and Suggestions</h3>
+            <p>Your ideas matter! Share your feedback and suggestions to help us improve and grow together.</p>
+        </div>
+    </div>
+</section>
+
+    <!-- NFT Gallery Section -->
+<section id="nft-gallery" class="nft-gallery-section">
+    <div class="container">
+        <h2>NFT Gallery</h2>
+        <p>A showcase of NFTs integrated into the game. Discover unique digital artworks transformed into captivating game elements.</p>
+        <div class="gallery-item">
+            <img src="res/nft1.jpg" alt="NFT #1">
+            <div class="gallery-item-info">
+                <h3>NFT Title 1</h3>
+                <p>Description of NFT 1</p>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="res/nft2.jpg" alt="NFT #2">
+            <div class="gallery-item-info">
+                <h3>NFT Title 2</h3>
+                <p>Description of NFT 2</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Our Partners Section -->
+<section id="partners" class="partners-section">
+    <div class="container">
+        <h2>Our Partners</h2>
+        <p>We collaborate with leading names in the NFT, gaming, and blockchain industries to bring you an unparalleled experience.</p>
+        <div class="partner">
+            <img src="res/logo1.png" alt="Partner 1 Logo" class="partner-logo">
+            <h3>Partner 1</h3>
+            <p>Partner 1 is a renowned blockchain company that provides the infrastructure for secure and efficient NFT transactions.</p>
+        </div>
+        <div class="partner">
+            <img src="res/logo2.png" alt="Partner 2 Logo" class="partner-logo">
+            <h3>Partner 2</h3>
+            <p>Partner 2 is a leading gaming studio known for its innovative and engaging game designs, enhancing the gaming aspect of our platform.</p>
+        </div>
+        <div class="partner">
+            <img src="res/logo3.png" alt="Partner 3 Logo" class="partner-logo">
+            <h3>Partner 3</h3>
+            <p>With a focus on digital art, Partner 3 brings creative and unique NFT art styles to our platform, enriching the visual experience.</p>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Contact Us Section -->
+<section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>Have questions or need assistance? Our team is here to help you. Get in touch with us through any of the following methods:</p>
+
+    <div class="contact-methods">
+        <div class="contact-method">
+            <h3>Email Us</h3>
+            <p>For general inquiries or support, email us at <a href="mailto:support@example.com">support@example.com</a></p>
+        </div>
+
+        <div class="contact-method">
+            <h3>Follow Us on Social Media</h3>
+            <p>Stay updated and engage with our community on social media:</p>
+            <ul>
+                <li><a href="https://twitter.com/yourpage">Twitter</a></li>
+                <li><a href="https://facebook.com/yourpage">Facebook</a></li>
+                <li><a href="https://instagram.com/yourpage">Instagram</a></li>
+                <!-- More social media links -->
+            </ul>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-about">
+            <p>Learn more about Par@SMOS and our mission to integrate NFTs with gaming...</p>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">Terms & policies</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <!-- More links as needed -->
+            </ul>
+        </div>
+        <div class="footer-copyright">
+            <ul>
+                <li>&copy; 2024 Par@SMOS | All rights reserved.</li>
+                <li>Generated by GPT4.</li>
+            </ul>
+        </div>
+
+    </div>
+</footer>
+</body>
+</html>
